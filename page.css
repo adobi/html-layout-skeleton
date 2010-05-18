@@ -61,7 +61,6 @@ body {
 	font:62.5% /1.5 Helvetica, Arial,sans-serif;
 	line-height:1.5;
 	text-align:center;
-	border-top: 5px solid #872300
 }
 
 a {
@@ -87,7 +86,7 @@ div#container {
 	min-height:700px;
 	text-align:left;
 	width:950px;
-	/*border:1px solid #ccc;*/
+	border:1px solid #ccc;
 	overflow:hidden;
 }
 
@@ -95,7 +94,7 @@ div#header {
 	height:120px;
 	position:relative;
 	width:950px;
-	/*border:1px solid #ccc;*/
+	border:1px solid #ccc;
 	overflow:hidden;
 }
 
@@ -104,12 +103,6 @@ div#sidebar {
 	padding:0;
 	width:200px;
 	border:1px solid #ccc;
-	border-left:5px solid #8BC268;
-	-moz-border-radius-topright:3px;
-	-webkit-border-top-right-radius:3px;
-	-moz-border-radius-bottomright:3px;
-	-webkit-border-bottom-right-radius:3px;	
-	font-weight:bold;		
 	margin-right:20px;
 }
 			
@@ -119,16 +112,11 @@ div#content {
 	padding:10px;
 	width:700px;
 	border:1px solid #ccc;	
-	background:#F9F9F9;
-	-moz-border-radius:3px;
-	-webkit-border-radius: 3px;
 }
 
 
 div#footer {
-    /*border:1px solid #ccc;*/
-	background: #453A31;
-	color: #C1C1C1;
+    border:1px solid #ccc;
 	font-size:11px;
 	margin-top:30px;
 	padding:20px 0;
